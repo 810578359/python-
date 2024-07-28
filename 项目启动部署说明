@@ -1,0 +1,2 @@
+docker pull registry.cn-zhangjiakou.aliyuncs.com/pymvp/cj
+docker run -d --restart=always --name=cj -p 5000:5000 registry.cn-zhangjiakou.aliyuncs.com/pymvp/cj
